@@ -4,28 +4,22 @@ body, html{
 .img{
     height: 100%;
     width: 100%;
-    
+    filter: blur(5px);
+    border: none;
     overflow: hidden;
 }
+
 .img:hover{
     height: 100%;
     width: 100%;
-    filter: blur(4px);
-    border: none;
-    overflow: hidden;
-}
-.form-box:hover .img{
-    height: 100%;
-    width: 100%;
-    filter: blur(4px);
-    border: none;
+    filter: none;
     overflow: hidden;
 }
      
 body{
     margin: 0%;
     padding: 0%;
-   /* background-image: url("https://cdnb.artstation.com/p/assets/images/images/024/538/827/original/pixel-jeff-clipa-s.gif?1582740711");
+   /* 
     background-repeat: no-repeat;*/
     
     background-size: 100% 100%;
