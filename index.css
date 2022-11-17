@@ -1,5 +1,5 @@
 body, html{
-    height: 106;
+    height: 100;
 }
 .img{
     height: 100%;
@@ -69,7 +69,7 @@ body{
     margin: 20px auto;
     padding: 14px 10px;
     text-align: center;
-    border: 2px solid #115874;
+    border: 2px solid #2331fd;
     width: 200px;
     border-radius: 22px;
     color: black;
@@ -82,7 +82,8 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 0; 
 }
 
-input[type=number] { -moz-appearance:textfield; }
+/*input[type=number] { -moz-appearance:textfield; }*/
+.form-box input[type="text"]:focus,
 .form-box input[type="number"]:focus,
 .form-box input[type="password"]:focus{
     width: 280px;
@@ -99,6 +100,7 @@ input[type=number] { -moz-appearance:textfield; }
     color: black;
     cursor: pointer;
 }
+
 .form-box a{
-    color: #115874;
+    color: #2331fd;
 }
